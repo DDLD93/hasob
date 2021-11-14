@@ -1,15 +1,15 @@
 import React from 'react'
-import Baner from '../assets/Home.png'
-import Logo from '../assets/Logo.png'
+import Baner from '../../assets/Home.png'
+import Logo from '../../assets/Logo.png'
 import './css/Home.css'
 import LoginModal from './LoginModal'
 
 function Home() {
     
-  function modal(e) {
-    var modal = document.getElementById("modal");
+  function modal(e:any) {
+    var modal:any = document.getElementById("modal");
     console.log(e.target.className);
-    if (e.target.className === 'btn') { 
+    if (e.target.className === 'btn') {
         modal.style.display = "flex";   
     }else if (e.target.className !== 'modal') {
         modal.style.display = "none";

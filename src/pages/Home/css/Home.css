@@ -73,68 +73,8 @@ section div button{
     border: none;
     border-radius: 5px;
     box-shadow: 0px 2px 5px var(--accent);
-    border-bottom-color: var(--white);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom:solid 2px var(--white);
 }
 #register{
     background-color: var(--accent);
-}
-
-
-/* login modal */
-.modal{
-    width: 370px;
-    height: 450px;
-    z-index: 1000;
-    background-color: var(--white);
-    box-shadow: 0px 2px 8px var(--accent);
-    border-radius: 10px;
-    position: absolute;
-    top: 26%;
-    left: 40%;
-    margin: -100px 0 0 -150px;
-    display: none;
-    flex-direction: column;
-    padding: 65px;
-    justify-content: space-evenly;
-    text-align: center;
-    color: var(--primary);
-    -webkit-transition-duration: 2s;
-}
-.modal img{
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    width: 20px;
-    height: 20px;
-}
-.modal h4{
-    color: var(--accent);
-    text-align: start;
-    font-weight: lighter;
-}
-.modal div{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    color: var(--accent);
-}
-.modal div input{
-    height: 40px;
-    border:none;
-    background-color: var(--accent-lighter);
-    border-radius: 5px;
-    outline: none;
-    margin:6px 0px;
-
-}
-.modal button{
-    background-color: var(--primary);
-    color: var(--white);
-    height: 40px;
-    border: none;
-    font-size: 25px;
-    box-shadow: 0px 1px 5px var(--accent);
-    border-radius: 5px;
 }

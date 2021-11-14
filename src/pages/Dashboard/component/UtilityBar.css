@@ -1,0 +1,42 @@
+.utility-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8e9f7;
+    width: 100px;
+    flex: 3;
+}
+.contact-card{
+    background-color: var(--primary);
+    border-radius: 6px;
+}
+.quick-links{
+ background-color: var(--white);
+ border-radius: 6px;
+ padding: 10px;
+}
+.quick-links h5{
+    margin-bottom: 10px;
+}
+.quick-links li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 5px;   
+}
+.contacts{
+    display: flex;
+    color: var(--white);
+    font-size: 10px;
+    margin: 1px 10px;
+}
+.contacts span{
+    margin-left: 10px;
+}
+.icons{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

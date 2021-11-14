@@ -1,6 +1,6 @@
 import React from 'react'
-import Close from '../assets/closeButton.png'
-import './css/Home.css'
+import Close from '../../assets/closeButton.png'
+import './css/LoginModal.css'
 
 
 function LoginModal() {
@@ -10,11 +10,11 @@ function LoginModal() {
             <h1>Welcome Back </h1>
             <h4>Learn on your own, study coursework and handout at your convinient time </h4>
             <div>
-                <label for="username">Username</label>
+                <label >Username</label>
                 <input type="text" name="uername" id="username"></input>
             </div>
             <div>
-                <label for="password">Password</label>
+                <label>Password</label>
                 <input type="password" name="password" id="password"></input>
                 <p style={{fontWeight:'lighter',color:'#b3b0b0'}} >Between 6 to 12 characters</p>
             </div>

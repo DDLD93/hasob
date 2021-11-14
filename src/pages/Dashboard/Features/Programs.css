@@ -1,0 +1,19 @@
+.content{
+    padding: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0px 10px;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    color: var(--white);
+}
+.program-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0px 10px;
+    align-items: center;
+    height: 50px;
+}
